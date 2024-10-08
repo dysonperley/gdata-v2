@@ -49,7 +49,7 @@
             </gd:comments>
             <media:group>
                 <media:category label='People &amp; Blogs' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>People &amp; Blogs</media:category>
-                <media:content url='<?php echo "https://yt2009akivec.onrender.com/channel_fh264_getvideo?v=".$vid ?>' type='video/3gpp' medium='video' expression='full' duration='999' yt:format='3'/>
+                <media:content url='<?php echo "https://yt2009.aesthetiful.com/channel_fh264_getvideo?v=".$vid ?>' type='video/3gpp' medium='video' expression='full' duration='999' yt:format='3'/>
                 <media:description type='plain'><?php echo $ytdata["items"][0]["snippet"]["description"]?></media:description>
                 <media:keywords>-</media:keywords>
                 <media:player url='http://www.youtube.com/watch?v=<?php echo $vid?>'/>
